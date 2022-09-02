@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+/* fonto */
+.wf-roundedmplus1c { font-family: "M PLUS Rounded 1c"; }
+
+/*背景色*/
+body{
+    background-color: mintcream;
+}
+
+/*余白とフォントサイズの調整*/
+div{
+    margin: 30pt;
+    font-size: 16pt;
+}
+
+
+/*リストの目次を□にして周りを囲う*/
+.box{
+    list-style-type: square;
+    border-width: thin;
+    border-style: groove;
+    background: gainsboro;
+}
+
+/*Contactのリストを横並び。間隔をあける。目次を消す*/
+.container{
+    display: flex;
+    gap: 100px;
+    list-style-type:none;
+}
