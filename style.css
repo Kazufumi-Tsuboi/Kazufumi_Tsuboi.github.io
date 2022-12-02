@@ -26,6 +26,7 @@ div{
 /*Contactのリストを横並び。間隔をあける。目次を消す*/
 .container{
     display: flex;
-    gap: 100px;
+    gap: 50px;
     list-style-type:none;
+    margin: 20px;
 }
